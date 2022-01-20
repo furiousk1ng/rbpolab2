@@ -1,3 +1,4 @@
+#include <iostream>
 #include "funcc.h"
 using namespace std;
 void main()
