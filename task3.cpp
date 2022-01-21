@@ -1,13 +1,13 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 double f(double x);
-void main()
+int main()
 {
-	setlocale(LC_ALL, "Russian");
 	double x = 5;
 	cout << "x = " << x;
 	cout << "\nf = " << f(x);
-	cout << "\n¬ведите x: ";
+	cout << "\nVvod x: ";
 	cin >> x;
 	cout << "\nf = " << f(x);
 }

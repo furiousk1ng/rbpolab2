@@ -1,4 +1,6 @@
 #include "funcc.h"
+#include <iostream>
+#include <cmath>
 double x = 4;
 double result;
 namespace Filinov {

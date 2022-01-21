@@ -1,4 +1,6 @@
 #include "func.h"
+#include <iostream>
+#include <cmath>
 double x = 5;
 double result;
 void f() {

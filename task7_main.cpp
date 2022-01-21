@@ -1,15 +1,15 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 extern double x, result;
 void f();
-void main()
+int main()
 {
 	x = 5;
-	setlocale(LC_ALL, "Russian");
 	cout << "x = " << x << endl;
 	f();
 	cout << "f = " << result << endl;
-	cout << "¬ведите x: " << endl;
+	cout << "Vvod x: " << endl;
 	cin >> x;
 	f();
 	cout << "f = " << result << endl;
